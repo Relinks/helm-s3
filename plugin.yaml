@@ -9,6 +9,3 @@ downloaders:
 - command: "bin/helms3"
   protocols:
     - "s3"
-hooks:
-  install: "cd $HELM_PLUGIN_DIR; ./hack/install.sh"
-  update: "cd $HELM_PLUGIN_DIR; ./hack/install.sh"
